@@ -30,7 +30,7 @@ public class Main {
             number2 = Integer.parseInt(operands[1]);
             isRim = false;
         }
-        else if (Rimskie.tezRim(operands) == true && Rimskie.tezNum(operands)==true){
+        else if (Rimskie.tezRim(operands) && Rimskie.tezNum(operands)){
             throw new Exception("вы используюте одновременно разные системы счисления");
         }
         else {
